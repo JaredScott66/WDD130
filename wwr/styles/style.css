@@ -61,6 +61,7 @@ header {
     text-decoration: none;
     font-size: 2em;
     padding: 15px 30px;
+    margin-top: 50px;
 }
 
 .book:hover, .join:hover {
@@ -109,12 +110,14 @@ footer .social img {
 footer {
     background-color: #2e29b0;
     padding: 25px 50px;
+    margin: 200px 0;
 }
 
 .home-title {
     color: #E7C24F;
     font-family: "Spline Sanse, Regular 400", sans-serif;
     font-size: 2em;
+    margin-top: 10px;
 }
 
 .home-grid h2{
@@ -136,4 +139,8 @@ h4 {
 
 #hero-img {
     width: 100%;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
