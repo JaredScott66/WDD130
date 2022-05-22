@@ -38,6 +38,12 @@ main section {
 body {
     background-color: #2e29b0;
     font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
