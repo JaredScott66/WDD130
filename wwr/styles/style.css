@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,300&display=swap');
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -85,6 +89,7 @@ footer {
 
 .home-title {
     color: #E7C24F;
+    font-family: "Spline Sanse, Regular 400", sans-serif;
 }
 
 h4 {
