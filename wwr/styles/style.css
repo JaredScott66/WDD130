@@ -37,6 +37,7 @@ main section {
 
 body {
     background-color: #2e29b0;
+    font-size: 22px;
 }
 
 header {
@@ -47,6 +48,7 @@ header {
     background-color: #c44d08be;
     color: white;
     text-decoration: none;
+    font-size: 2em;
 }
 
 .book:hover, .join:hover {
@@ -61,10 +63,12 @@ header {
 
 .msg p {
     color: white;
+    font-size: 2em;
 }
 
 .msg {
     background-color: rgb(9, 19, 165);
+    line-height: 1.5em;
 }
 
 footer h3 {
@@ -91,6 +95,7 @@ footer {
 .home-title {
     color: #E7C24F;
     font-family: "Spline Sanse, Regular 400", sans-serif;
+    font-size: 2em;
 }
 
 h4 {
