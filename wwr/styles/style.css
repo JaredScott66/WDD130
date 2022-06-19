@@ -8,7 +8,7 @@
 }
 
 h1 {
-    font-family: "Spline Sans, Regular 400", sans-serif;
+    font-family: "Spline Sans", sans-serif;
 }
 
 nav {
@@ -81,7 +81,7 @@ body {
 
 h2 {
     margin: 0;
-    font-family: "Nunito, Light 300 italic" Calibri;
+    font-family: "Nunito", Calibri;
 }
 
 header {
@@ -107,14 +107,14 @@ header {
 
 .msg h2 {
     color: white;
-    font-family: "Spline Sans, Regular 400", sans-serif;
+    font-family: "Spline Sans", sans-serif;
 }
 
 .msg p {
     color: white;
     font-size: 2em;
     padding-bottom: 15px;
-    font-family: "Nunito, Light 300 italic" Calibri;
+    font-family: "Nunito", Calibri;
 }
 
 .msg {
@@ -158,7 +158,7 @@ footer {
 
 .home-title {
     color: #E7C24F;
-    font-family: "Spline Sans, Regular 400", sans-serif;
+    font-family: "Spline Sans", sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
