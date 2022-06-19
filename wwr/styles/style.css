@@ -73,7 +73,7 @@ main section {
 }
 
 body {
-    background-color: #2e29b0;
+    background-color: #0477e2;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -232,6 +232,77 @@ main section img {
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #000000;
+}
+
+.rivers {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.rivers img {
+    width: 600px;
+    height: 400px;
+    border: 5px solid #000000;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #000000;
+}
+.river-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 420px;
+    margin: 60px;
+    
+}
+
+#idaho img {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: center;
+}
+#idaho p {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-self: center;
+}
+#idaho h2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: center;
+}
+#utah {
+    margin: 20px;
+}
+#utah img {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-self: center;
+}
+#utah p {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: center;
+}
+#utah h2 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: center;
+}
+#arizona {
+    margin: 20px;
+}
+#arizona img {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: center;
+}
+#arizona p {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-self: center;
+}
+#arizona h2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: center;
 }
 
 @media screen and (max-width: 900px) {
