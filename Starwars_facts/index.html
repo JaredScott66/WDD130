@@ -1,61 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
-    <title>Star Index</title>
-</head>
-<body>
-    <header>
-        <a href="index.html" id="logo_link">
-            <img class="logo" src="images/Star_Index_Logo.png" alt="Star index logo">
-        </a>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="factions.html">Factions</a>
-            <a href="#">Characters</a>
-            <a href="#">Ships</a>
-        </nav>
-    </header>
-    <div>
-        <img src="https://live.staticflickr.com/5231/14137284401_4f06e9f8c6_b.jpg" alt="Star Wars Title image">
-    </div>
-    <main class="content">
-        <section>
-            <!-- Commuinity image: https://live.staticflickr.com/766/22185851772_9a73ca374f_b.jpg-->
-            <h2>What are we about?</h2>
-            <img src="data:image/jpeg;base64,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" alt="Luke and Vader facing off each other">
-            <p>People will be curious as to the backstory of various characters, they will be looking for information on them. 
-                This site is a one stop place for all these characters and their deeper details that may not be widely known. 
-                It can get confusing where all these characters belong in this universe, and who they fight for. 
-                They have been organized in their factions according to the eras they belong to, to more understandable.
-            </p>
-        </section>
-        <section>
-            <h2>One of many</h2>
-            <img src="https://live.staticflickr.com/766/22185851772_9a73ca374f_b.jpg" alt="Group shot cosplayers">
-            <p>The amount of people that have fallen in love with the movies (Myself included) is something to behold. 
-                From cosplay, to fans actually getting roles in recent films. There are many who have taken that passion to incredible
-                heights. Is there a character you wish you could know personaly? 
-            </p>
-        </section>
-        <!--<section>
-            <h2>[3# Section Here]</h2>
-            <img src="#" alt="#">
-        </section> -->
-        <footer>
-            <h3>Star Index &copy; 2022 - Jared Scott</h3>
-            <a href="index.html">Home</a>
-            <a href="#">Characters</a>
-            <a href="#">Factions</a>
-            <a href="#">Ships</a>
-            <a href="site-plan.html">Site Plan</a>
+    <head>
+        <link rel="stylesheet" href="styles/home-page.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/style.css">
+        <title>Star Index</title>
+    </head>
+    <body>
+        <header>
             <a href="index.html" id="logo_link">
                 <img class="logo" src="images/Star_Index_Logo.png" alt="Star index logo">
             </a>
-        </footer>
-    </main>
-</body>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="factions.html">Factions</a>
+                <a href="#">Characters</a>
+                <a href="#">Ships</a>
+            </nav>
+        </header>
+        <div class="banner">
+            <img src="https://live.staticflickr.com/5231/14137284401_4f06e9f8c6_b.jpg" alt="Star Wars Title image">
+        </div>
+        <main class="content">
+            <section class="sect1">
+                <!-- Commuinity image: https://live.staticflickr.com/766/22185851772_9a73ca374f_b.jpg-->
+                <h2>What are we about?</h2>
+                <img src="data:image/jpeg;base64,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" alt="Luke and Vader facing off each other">
+                <p>People will be curious as to the backstory of various characters, they will be looking for information on them. 
+                    This site is a one stop place for all these characters and their deeper details that may not be widely known. 
+                    It can get confusing where all these characters belong in this universe, and who they fight for. 
+                    They have been organized in their factions according to the eras they belong to, to more understandable.
+                </p>
+            </section>
+            <section class="sect2">
+                <h2>One of many</h2>
+                <img src="https://live.staticflickr.com/766/22185851772_9a73ca374f_b.jpg" alt="Group shot cosplayers">
+                <p>The amount of people that have fallen in love with the movies (Myself included) is something to behold. 
+                    From cosplay, to fans actually getting roles in recent films. There are many who have taken that passion to incredible
+                    heights. Is there a character you wish you could know personaly? 
+                </p>
+            </section>
+            <!--<section>
+                <h2>[3# Section Here]</h2>
+                <img src="#" alt="#">
+            </section> -->
+            <footer>
+                <h3>Star Index &copy; 2022 - Jared Scott</h3>
+                <nav class="footer_nav">
+                    <a href="index.html">Home</a>
+                    <a href="#">Characters</a>
+                    <a href="#">Factions</a>
+                    <a href="#">Ships</a>
+                    <a href="site-plan.html">Site Plan</a>
+                </nav>
+                <a href="index.html" id="logo_link">
+                    <img class="logo-foot" src="images/Star_Index_Logo.png" alt="Star index logo">
+                </a>
+            </footer>
+        </main>
+    </body>
 </html>

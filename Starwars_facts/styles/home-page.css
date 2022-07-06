@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+header {
+    background-color: #be1c1c;
+    display: grid;
+    grid-template-columns: 150px auto;
+    height: 104px;
+}
+
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #000000;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    grid-column: 2/3;
+}
+nav a {
+    color: #FFFFFF;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    text-decoration: none;
+    align-self: center;
+    padding: 35px
+}
+
+nav a:hover {
+    color: rgb(0, 40, 219);
+    background-color: #ff0000;
+}
+
+.logo {
+    width: 100px;
+    grid-column: 1/2;
+    border: #F3C90C solid 2px;
+}
+
+.banner img {
+    width: 80%;
+    height: 350px;
+    margin-left: 170px;
+}
+
+h2 {
+  color: #F3C90C; 
+  font-family: "Kdam Thmor Pro", sans-serif; 
+}
+
+p {
+    color: #F3C90C;
+    font-family: "Poppins", serif;
+}
+
+.content {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+section {
+    margin: 100px;
+}
+
+.sect1 {
+    grid-row: 1/2;
+    height: 300px;
+    display: grid;
+    grid-template-rows: 50px auto;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sect1 img {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    height: 250px;
+    width: 444px;
+    padding-left: 22%;
+}
+
+.sect1 h2 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+    margin: 10px;
+}
+
+.sect1 p {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.sect2 {
+    grid-row: 2/3;
+    height: 300px;
+    display: grid;
+    grid-template-rows: 50px auto;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sect2 img {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    height: 250px;
+    padding-left: 22%;
+}
+
+.sect2 h2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    margin: 10px;
+}
+
+.sect2 p {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+footer {
+    background-color: #be1c1c;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    height: 104px;
+    
+}
+
+
+footer h3 {
+    align-self: center;
+    justify-self: center;
+    grid-column: 1/2;
+}
+
+.footer_nav {
+    display: flex;
+    justify-content: space-around;
+    grid-column: 2/3;
+    margin-right: -200px;
+}
+.footer_nav a {
+    color: #FFFFFF;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    text-decoration: none;
+    align-self: center;
+    padding: 35px
+}
+
+.footer_nav a:hover {
+    color: rgb(0, 40, 219);
+    background-color: #ff0000;
+}
+
+.logo-foot {
+    width: 100px;
+    border: #F3C90C solid 2px;
+    margin-left: 216px;
+    grid-template-columns: 3/4;
+}
