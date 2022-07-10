@@ -20,7 +20,7 @@
         </nav>
     </header>
     <main class="content-factions">
-       <h3>Factions</h3>
+       <h2>Factions</h2>
        <p>
         From the events of “The Fantom Menace” to the end of “Rise of Sky Walker” is a time span of 67 years. 
         There are 3 major conflicts that span this time. The Old Republic vs The Separatists, The Rebellion against the Empire and The First Order against the Resistance. 
@@ -57,7 +57,17 @@
             <h3>General Grievous</h3>
         </a>
         <!------------------------------------------------------------------------->
-      </section> 
+      </section>
+      <div class="popup" onclick="myFunction()">psssst...Why did Episodes 4, 5, and 6 come out before 1, 2, and 3?
+        <span class="popuptext" id="myPopup">Because in charge of directing, Yoda was.</span>
+      </div>
+      <script>
+        // When the user clicks on <div>, open the popup
+        function myFunction() {
+          var popup = document.getElementById("myPopup");
+          popup.classList.toggle("show");
+        }
+        </script> 
     </main>
     <footer>
         <h3>Star Index &copy; 2022 - Jared Scott</h3>
